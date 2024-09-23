@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ashutosh Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Ashutosh <span>Bhatt</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="#">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#portfolio">Portfolio</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="main.png" alt="Ashutosh Bhatt" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span>Ashutosh</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a <span class="typewriter-text"></span><label for="">|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            As a highly motivated software developer with a passion for
+            full-stack web development, I thrive on staying at the cutting edge
+            of technology. I’m driven by a deep enthusiasm for innovation and am
+            always eager to contribute to the ever-evolving tech landscape.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://github.com/ASHUTOSH-13"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/beingvanshbhatt/"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ashutosh2003/"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://x.com/123Ashu890"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <a
+              href="https://drive.google.com/file/d/1OrAEvHqwMnN4j50lwEcKTj4AjceVT_Gm/view?usp=sharing"
+              download
+            >
+              <button class="download-btn">
+                DOWNLOAD CV
+                <i class="fas fa-download"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--about section-->
+
+    <div class="about-section" id="about">
+      <h2>About Me</h2>
+
+      <div class="personal-info">
+        <div class="left-info">
+          <p><strong>First Name:</strong> Ashutosh</p>
+          <p><strong>Age:</strong> 22 Years</p>
+          <p>
+            <strong>Freelance:</strong>
+            <span style="color: green">Available</span>
+          </p>
+          <p><strong>Phone:</strong> +91 8765451884</p>
+          <p><strong>Skype:</strong> ashutosh.bhatt</p>
+        </div>
+
+        <div class="right-info">
+          <p><strong>Last Name:</strong> Bhatt</p>
+          <p><strong>Nationality:</strong> Indian</p>
+          <p><strong>Address:</strong> Lucknow, India</p>
+          <p><strong>Email:</strong> ashutoshkalash03@gmail.com</p>
+          <p><strong>Languages:</strong> English, Hindi</p>
+        </div>
+
+        <div class="image-section">
+          <img src="main.png" alt="Ashutosh's image" />
+        </div>
+      </div>
+
+      <a
+        href="https://drive.google.com/file/d/1OrAEvHqwMnN4j50lwEcKTj4AjceVT_Gm/view?usp=sharing"
+        download
+      >
+        <button class="download-btn">
+          DOWNLOAD CV
+          <i class="fas fa-download"></i>
+        </button>
+      </a>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-section">
+      <div class="stat-box">
+        <h3>2+</h3>
+        <p>Years of Experience</p>
+      </div>
+
+      <div class="stat-box">
+        <h3>17+</h3>
+        <p>Completed Projects</p>
+      </div>
+
+      <div class="stat-box">
+        <h3>11+</h3>
+        <p>Hackathons participated</p>
+      </div>
+
+      <div class="stat-box">
+        <h3>43+</h3>
+        <p>Awards Won</p>
+      </div>
+    </div>
+
+    <!-- Background Section -->
+    <div
+      class="background-section"
+      id="background"
+      style="text-align: center; padding: 50px"
+    >
+      <h1 style="color: yellow; text-align: center">Background</h1>
+      <br />
+      <br />
+      <p style="color: white">
+        Hello everyone! as all know my name is Ashutosh Bhatt, I was born and
+        brought up in Lucknow, Uttar Pradesh. I have done my initial schooling
+        from Lucknow itself from La Martiniere's college, it was here only where
+        I developed a passion for technology, and eventually I came in the
+        domain of engineering and cleared JEE Mains with a percentile of 98.2, I
+        was also successful in clearing JEE Advanced with AIR-12774, but I could
+        not get into IITs but be it as it may be. Currently, I am pursuing a
+        Bachelor's degree in Industrial Design at National Institute of
+        technology Rourkela. During my studies, I have gained valuable
+        experience in software development and problem-solving, which has
+        greatly enhanced my skills in coding and project development. Growing
+        up, I was always passionate about three things. <br />
+        <br />
+        Creating digital designs, fashion, and playing soccer. Through my
+        interest in design, I always wanted to use my skills to make others
+        happy and enjoy what they were seeing visually. Through fashion, it
+        allowed me to develop a natural eye for color, texture, and design. And
+        through soccer, I learned that a lot of my skills translated to real
+        world work as I gained valuable skills in leadership, communication,
+        teamwork, and discipline. As I always wanted to grow in my design
+        skills, fashion sense, and soccer abilities, it put me in a growth and
+        curious mindset early on as I wanted to understand how to become better
+        in everything I do. During my freshman year, I discovered UX/UI Design
+        as a perfect blend of being in design and making a meaningful impact in
+        people’s lives through human centered design. <br />
+        <br />
+        Through my deep curiosity for software development before taking formal
+        classes, I learned how to approach problem-solving with a structured and
+        empathetic mindset, understand what processes drive successful
+        solutions, and develop creative methods for tackling complex challenges.
+        While my formal education in algorithms and data structures has been
+        enlightening, my journey through competitive programming and
+        problem-solving platforms has allowed me to push the boundaries of my
+        technical skills and explore innovative solutions. <br />
+        <br />
+        With over 550 problems solved on LeetCode, achieving a rating of 1700
+        and Knight status, and maintaining an ongoing streak of 290+ days of
+        problem of the day, I've developed a robust problem-solving toolkit. My
+        engagement with GeeksforGeeks, where I have solved more than 400
+        problems and maintained a 290+ days POTD streak, and my recognition with
+        an institute rank under 100, further attest to my commitment and
+        proficiency. As a 3-star coder on CodeChef, a Pupil on Codeforces, and
+        with over 22,000 points on CodeStudio, my journey reflects a passion for
+        mastering data structures, algorithms, and web development. I aim to
+        leverage this experience to create impactful and seamless solutions in
+        the software domain, making interactions with technology more intuitive
+        and effective.
+      </p>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-container">
+        <div class="skill-box">
+          <i class="fa-solid fa-code" style="color: rgb(254, 83, 111)"></i>
+          <h3 style="color: yellow">Web Development</h3>
+          <p>
+            Proficient in crafting responsive and user-friendly websites using
+            MERN Stack and popular frameworks like React and Vue.js
+          </p>
+        </div>
+        <div class="skill-box">
+          <i
+            class="fa-solid fa-chart-simple"
+            style="color: rgb(254, 83, 111)"
+          ></i>
+          <h3 style="color: yellow">Data Structures and Algorithms (DSA)</h3>
+          <p>
+            Possess a strong foundation in data structures and algorithms,
+            backed by experience solving a variety of problems on platforms like
+            LeetCode, GeeksforGeeks, CodeChef, and Codeforces.
+          </p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-solid fa-palette" style="color: rgb(254, 83, 111)"></i>
+          <h3 style="color: yellow">UI/UX</h3>
+          <p>
+            Skilled in crafting intuitive and visually appealing user interfaces
+            that enhance user experience and drive engagement, using wireframes,
+            mockups, and prototypes.
+          </p>
+        </div>
+      </div>
+      <div class="skill-container">
+        <div class="skill-box">
+          <i class="fa-solid fa-code" style="color: rgb(254, 83, 111)"></i>
+          <h3 style="color: yellow">Graphic Designer</h3>
+          <p>
+            Skilled in creating visually appealing and impactful designs that
+            align with brand identity and target audience preferences
+          </p>
+        </div>
+        <div class="skill-box">
+          <i
+            class="fa-solid fa-chart-simple"
+            style="color: rgb(254, 83, 111)"
+          ></i>
+          <h3 style="color: yellow">Content Writer</h3>
+          <p>
+            Skilled in crafting engaging and informative content that
+            effectively communicates complex ideas to a diverse audience.
+          </p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-solid fa-palette" style="color: rgb(254, 83, 111)"></i>
+          <h3 style="color: yellow">Database Management</h3>
+          <p>
+            Experienced in managing and optimizing databases using MySQL and
+            MongoDB to ensure efficient data storage and retrieval.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="section-header">
+        <h2>
+          Look at my work & <br />
+          <span class="yellow">give us your feedback</span>
+        </h2>
+        <a href="#" class="view-all-works"
+          >View All Works <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+
+      <div class="portfolio-container">
+        <div class="portfolio-item">
+          <img src="test.png" alt="Project 1" />
+          <div class="overlay">
+            <h3>CODESAVE</h3>
+            <p>Branding</p>
+            <a href="your-project-link1.com" class="portfolio-link">
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="test.png" alt="Project 2" />
+          <div class="overlay">
+            <h3>SENTIMENTAL ANALYSIS</h3>
+            <p>Branding</p>
+            <a href="your-project-link2.com" class="portfolio-link">
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="test.png" alt="Project 3" />
+          <div class="overlay">
+            <h3>TRANSLATOR</h3>
+            <p>Branding</p>
+            <a href="your-project-link3.com" class="portfolio-link">
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="test.png" alt="Project 4" />
+          <div class="overlay">
+            <h3>MOVIE SEARCHING WEBSITE</h3>
+            <p>Branding</p>
+            <a href="your-project-link4.com" class="portfolio-link">
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      style="
+        padding: 50px 0;
+        text-align: left;
+        background-color: #111;
+        position: relative;
+      "
+    >
+      <!-- "GET IN TOUCH" Heading -->
+      <div
+        class="contact-heading"
+        style="text-align: center; position: relative; margin-bottom: 50px"
+      >
+        <h1
+          style="
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #fff;
+            position: relative;
+            top: -10px;
+          "
+        >
+          <span style="color: white">GET IN</span>
+          <span style="color: #f4b500">TOUCH</span>
+        </h1>
+        <h1
+          style="
+            font-size: 7rem;
+            color: rgba(255, 255, 255, 0.1);
+            letter-spacing: 10px;
+            position: absolute;
+            top: -50px;
+            width: 100%;
+            z-index: -1;
+          "
+        >
+          CONTACT
+        </h1>
+      </div>
+
+      <div
+        class="contact-container"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          max-width: 1200px;
+          margin: 0 auto;
+        "
+      >
+        <!-- Left Side (Contact Info) -->
+        <div class="contact-left" style="width: 45%">
+          <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: #fff">
+            DON'T BE SHY!
+          </h2>
+          <p style="font-size: 1rem; margin-bottom: 20px; color: #aaa">
+            Feel free to get in touch with me. I am always open to discussing
+            new projects, creative ideas or opportunities to be part of your
+            visions.
+          </p>
+
+          <!-- Contact Info -->
+          <div class="contact-info" style="margin-bottom: 30px">
+            <div
+              class="info-item"
+              style="display: flex; align-items: center; margin-bottom: 15px"
+            >
+              <i
+                class="fas fa-map-marker-alt"
+                style="font-size: 1.5rem; color: #f4b500; margin-right: 10px"
+              ></i>
+              <span style="font-size: 1rem"
+                >551K/349B, Madhuban Nagar, Alambagh, Lucknow, Uttar Pradesh,
+                India, 226005
+              </span>
+            </div>
+            <div
+              class="info-item"
+              style="display: flex; align-items: center; margin-bottom: 15px"
+            >
+              <i
+                class="fas fa-envelope"
+                style="font-size: 1.5rem; color: #f4b500; margin-right: 10px"
+              ></i>
+              <span style="font-size: 1rem">ashutoshkalash03@gmail.com</span>
+            </div>
+            <div
+              class="info-item"
+              style="display: flex; align-items: center; margin-bottom: 15px"
+            >
+              <i
+                class="fas fa-phone"
+                style="font-size: 1.5rem; color: #f4b500; margin-right: 10px"
+              ></i>
+              <span style="font-size: 1rem">+91 87654 51884</span>
+            </div>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="social-icons" style="margin-top: 20px">
+            <a href="https://instagram.com">
+              <i
+                class="fab fa-instagram"
+                style="
+                  font-size: 1.5rem;
+                  color: #f4b500;
+                  margin-right: 15px;
+                  cursor: pointer;
+                "
+              ></i>
+            </a>
+            <a href="https://twitter.com">
+              <i
+                class="fab fa-twitter"
+                style="
+                  font-size: 1.5rem;
+                  color: #f4b500;
+                  margin-right: 15px;
+                  cursor: pointer;
+                "
+              ></i>
+            </a>
+            <a href="https://youtube.com">
+              <i
+                class="fab fa-youtube"
+                style="
+                  font-size: 1.5rem;
+                  color: #f4b500;
+                  margin-right: 15px;
+                  cursor: pointer;
+                "
+              ></i>
+            </a>
+            <a href="https://dribbble.com">
+              <i
+                class="fab fa-dribbble"
+                style="
+                  font-size: 1.5rem;
+                  color: #f4b500;
+                  margin-right: 15px;
+                  cursor: pointer;
+                "
+              ></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side (Contact Form) -->
+        <div class="contact-right" style="width: 50%">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="eb2bf9eb-b614-490f-88c5-1104f9ea0e18"
+            />
+            <!-- Name and Email -->
+            <div
+              class="input-row"
+              style="display: flex; gap: 15px; margin-bottom: 15px"
+            >
+              <input
+                type="text"
+                placeholder="Your Name"
+                required
+                style="
+                  width: 100%;
+                  padding: 10px;
+                  background-color: #333;
+                  border: none;
+                  color: #fff;
+                  border-radius: 20px;
+                  font-size: 1rem;
+                "
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                required
+                style="
+                  width: 100%;
+                  padding: 10px;
+                  background-color: #333;
+                  border: none;
+                  color: #fff;
+                  border-radius: 20px;
+                  font-size: 1rem;
+                "
+              />
+            </div>
+            <!-- Subject -->
+            <input
+              type="text"
+              placeholder="Your Subject"
+              required
+              style="
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                background-color: #333;
+                border: none;
+                color: #fff;
+                border-radius: 20px;
+                font-size: 1rem;
+              "
+            />
+            <!-- Message -->
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+              style="
+                width: 100%;
+                padding: 10px;
+                height: 150px;
+                background-color: #333;
+                border: none;
+                color: #fff;
+                border-radius: 13px;
+                font-size: 1rem;
+                resize: none;
+              "
+            ></textarea>
+            <!-- Submit Button -->
+            <button
+              style="
+                border: none;
+                outline: none;
+                background-color: transparent;
+                padding: 0;
+                cursor: pointer;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  border: 2px solid #f4b500;
+                  border-radius: 50px;
+                  padding: 10px 30px;
+                  background-color: black;
+                  position: relative;
+                "
+              >
+                <span style="color: white; font-size: 16px; font-weight: bold"
+                  >SEND MESSAGE</span
+                >
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #f4b500;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 20px;
+                  "
+                >
+                  <i class="fas fa-paper-plane" style="color: white"></i>
+                </div>
+              </div>
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div
+        class="copyright"
+        style="
+          margin-top: 50px;
+          text-align: center;
+          color: #aaa;
+          font-size: 0.9rem;
+        "
+      >
+        &copy; 2024 Ashutosh Bhatt. All rights reserved.
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
