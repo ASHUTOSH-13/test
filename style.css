@@ -558,7 +558,7 @@ body {
   border-radius: 5px; /* Rounded corners for the button */
   position: absolute; /* Positioning it on the top right */
   right: 5%; /* Distance from the right edge */
-  top: 40px; /* Distance from the top of the section */
+  top: 70px; /* Distance from the top of the section */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Box shadow effect for depth */
   transition: all 0.3s ease;
   cursor: pointer;
