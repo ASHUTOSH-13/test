@@ -134,7 +134,7 @@ section {
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 50px #077b32;
-  margin-top: -90px; /* Adjust this value to move the image higher */
+  margin-top: -60px; /* Adjust this value to move the image higher */
   position: relative;
 }
 
@@ -369,7 +369,7 @@ section {
   padding: 40px;
   background-color: #111;
   color: white;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .stat-box {
